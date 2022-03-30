@@ -106,11 +106,16 @@ a:focus {
     color: #4F84C4;
 }
 
+.header .dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
 .header .dropdown-menu {
     margin-top: 0;
     border: 0;
     border-radius: 0;
-    background: #bbbbbb;
+    background-color:#fdfcfa ; 
+    border-radius: 5px;
 }
 
 .header .dropdown-menu a.active {
