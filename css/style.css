@@ -351,6 +351,19 @@ a:focus {
 /*******************************/
 /******* Properties Section ********/
 /*******************************/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+    padding: 0px;
+}
+
+.grid-container>img{
+    width: 100%;
+    height: 7rem;
+    padding: 0px;
+}
+
 .properties {
     position: relative;
     width: 100%;
